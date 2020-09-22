@@ -1,0 +1,75 @@
+VERSION 5.00
+Begin VB.PropertyPage propGrd 
+   Caption         =   "Button Property"
+   ClientHeight    =   3495
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5925
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3495
+   ScaleWidth      =   5925
+   Begin VB.TextBox Text1 
+      BackColor       =   &H00E0E0E0&
+      BeginProperty Font 
+         Name            =   "Verdana"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00800000&
+      Height          =   2370
+      Left            =   525
+      MultiLine       =   -1  'True
+      TabIndex        =   0
+      Text            =   "propGrd.pgx":0000
+      Top             =   660
+      Width           =   4860
+   End
+   Begin VB.Label Label1 
+      Alignment       =   2  'Center
+      Caption         =   "Form Skin Control. Developed By Debasis Ghosh. Feel Free To Comment On This at : - debughosh@vsnl.net"
+      BeginProperty Font 
+         Name            =   "Verdana"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00FF0000&
+      Height          =   480
+      Left            =   330
+      TabIndex        =   2
+      Top             =   135
+      Width           =   5295
+   End
+   Begin VB.Label Label2 
+      Alignment       =   2  'Center
+      AutoSize        =   -1  'True
+      Caption         =   "Copyright © 2004 by Debasis Ghosh"
+      BeginProperty Font 
+         Name            =   "Verdana"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00FF0000&
+      Height          =   240
+      Left            =   1485
+      TabIndex        =   1
+      Top             =   3120
+      Width           =   3915
+   End
+End
+Attribute VB_Name = "propGrd"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
